@@ -1,0 +1,33 @@
+{
+    "name": "word-document-processor",
+    "version": "1.0.0",
+    "description": "Process and modify Word documents",
+    "main": "server.js",
+    "scripts": {
+        "start": "node libreoffice.js", 
+        "dev": "nodemon server.js"
+    },
+    "dependencies": {
+        "axios": "^1.8.4",
+        "body-parser": "^1.20.2",
+        "cors": "^2.8.5",
+        "docx-templates": "^4.14.1",
+        "docxtemplater": "^3.61.1",
+        "docxtemplater-image-module": "^3.1.0",
+        "docxtemplater-image-module-free": "^1.1.1",
+        "easy-template-x": "^6.2.0",
+        "express": "^4.18.2",
+        "image-size": "^2.0.2",
+        "jsdom": "^26.1.0",
+        "libreoffice-convert": "^1.6.1",
+        "mammoth": "^1.6.0",
+        "officegen": "^0.6.5",
+        "open-docxtemplater-image-module": "^1.0.3",
+        "pizzip": "^3.1.8",
+        "puppeteer": "^24.7.1",
+        "qrcode": "^1.5.4"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.22"
+    }
+}
